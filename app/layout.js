@@ -1,7 +1,9 @@
-import { Inter } from "next/font/google";
+import { Inter, Montserrat, Roboto_Condensed } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+const montserrat = Montserrat({ subsets: ["latin"] });
+const robotoCondensed = Roboto_Condensed({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Portfólio",
@@ -11,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
-      <body className={inter.className}>{children}</body>
+      <body className={robotoCondensed.className}>{children}</body>
     </html>
   );
 }

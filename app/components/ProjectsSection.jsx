@@ -64,6 +64,14 @@ const ProjectsSection = () => {
       <h2 className="mt-4 mb-8 text-4xl font-bold text-center text-white md:mb-12">
         My Projects
       </h2>
+      <div className="flex flex-row items-center justify-center gap-2 py-6 text-white">
+        <button className="px-6 py-3 border-2 border-purple-500 rounded-full cursor-pointer">
+          All
+        </button>
+        <button className="px-6 py-3 border-2 rounded-full cursor-pointer border-slate-600 hover:border-white">
+          Web
+        </button>
+      </div>
       <div className="grid gap-8 md:grid-cols-3 md:gap-12">
         {projectsData.map((project) => (
           <ProjectCard
@@ -71,6 +79,8 @@ const ProjectsSection = () => {
             title={project.title}
             description={project.description}
             imgUrl={project.image}
+            gitUrl={project.gitUrl}
+            previewUrl={project.previewUrl}
           />
         ))}
       </div>
