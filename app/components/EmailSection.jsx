@@ -6,10 +6,15 @@ import Link from "next/link";
 
 const EmailSection = () => {
   return (
-    <section id="contact" className="relative grid gap-4 py-24 my-12 md:grid-cols-2 md:my-12">
+    <section
+      id="contact"
+      className="relative grid gap-4 py-24 my-12 md:grid-cols-2 md:my-12"
+    >
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-[2rem] -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
-        <h5 className="my-2 text-xl font-bold text-white">Let&apos;s Connect</h5>
+        <h5 className="my-2 text-xl font-bold text-white">
+          Let&apos;s Connect
+        </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
           I&apos;m currently looking for new opportunities, my inbox is always
@@ -26,57 +31,13 @@ const EmailSection = () => {
         </div>
       </div>
       <div>
-        <Image className="rounded-md md:ml-48" src="/images/message.jpg" alt="message" width={400} height={400} />
-        {/* <form className="flex flex-col">
-          <div className="mb-6">
-            <label
-              htmlFor="email"
-              className="block mb-2 text-sm font-medium text-white"
-            >
-              Email
-            </label>
-            <input
-              type="email"
-              id="email"
-              required
-              placeholder="Email"
-              className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-            />
-          </div>
-          <div className="mb-6">
-            <label
-              htmlFor="subject"
-              className="block mb-2 text-sm font-medium text-white"
-            >
-              Subject
-            </label>
-            <input
-              type="text"
-              id="subject"
-              required
-              placeholder="Just saying hi!"
-              className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-            />
-          </div>
-          <div className="mb-6">
-            <label
-              htmlFor="message"
-              className="block mb-2 text-sm font-medium text-white"
-            >
-              Message
-            </label>
-            <textarea
-              name="message"
-              id="message"
-              cols="30"
-              rows="5"
-              placeholder="Let's talk about..."
-              className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-            ></textarea>
-          </div>
-          <button
-          type="submit" className="bg-purple-500 hover:bg-purple-600 text-white font-medium py-2.5 px-5 rounded-lg w-full">Send Message</button>
-        </form> */}
+        <Image
+          className="rounded-md md:ml-48"
+          src="/images/message.jpg"
+          alt="message"
+          width={400}
+          height={400}
+        />
       </div>
     </section>
   );
