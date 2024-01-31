@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const EmailSection = () => {
   return (
-    <section className="relative grid gap-4 py-24 my-12 md:grid-cols-2 md:my-12">
+    <section id="contact" className="relative grid gap-4 py-24 my-12 md:grid-cols-2 md:my-12">
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-[2rem] -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
         <h5 className="my-2 text-xl font-bold text-white">Let's Connect</h5>
