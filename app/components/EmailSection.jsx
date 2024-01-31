@@ -26,7 +26,7 @@ const EmailSection = () => {
         </div>
       </div>
       <div>
-        <Image className="rounded-md md:ml-48" src="/images/message.jpg" width={400} height={400} />
+        <Image className="rounded-md md:ml-48" src="/images/message.jpg" alt="message" width={400} height={400} />
         {/* <form className="flex flex-col">
           <div className="mb-6">
             <label
