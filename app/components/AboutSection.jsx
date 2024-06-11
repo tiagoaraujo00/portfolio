@@ -9,7 +9,7 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="pl-2 list-disc">
-        <li>JavaScript</li>
+        <li>TypeScript</li>
         <li>React</li>
         <li>Dart</li>
         <li>Flutter</li>
@@ -23,6 +23,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="pl-2 list-disc">
+        <li>Centro Universitário Internacional</li>
         <li>
           Instituto Federal de Educação, Ciência e Tecnologia do Tocantins
         </li>
@@ -51,7 +52,7 @@ const TAB_DATA = [
 
 const AboutSection = () => {
   const [tab, setTab] = useState("skills");
-  const [isPending, startTransition] = useTransition();
+  const [startTransition] = useTransition();
 
   const handleTabChange = (id) => {
     startTransition(() => {

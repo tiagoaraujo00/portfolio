@@ -34,8 +34,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
-            eligendi asperiores.
+          I am a software developer currently residing in São Paulo, Brazil. I specialize in building robust and scalable applications, and I am passionate about leveraging technology to solve complex problems.
           </p>
           <div>
             <button className="w-full px-6 py-3 mr-4 text-white rounded-full sm:w-fit bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200">
@@ -49,7 +48,7 @@ const HeroSection = () => {
           </div>
         </motion.div>
         <div className="col-span-5 mt-4 place-self-center lg:mt-0">
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+          <div className="rounded-full bg-[#181818] w-[15.625rem] h-[15.625rem] lg:w-[25rem] lg:h-[25rem] relative">
             <Image
               src="/images/profile.png"
               alt="profile image"
